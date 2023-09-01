@@ -376,7 +376,6 @@ img {
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
-  margin-left: auto;
 }
 
 /* ===== FOOTER =====*/
@@ -527,4 +526,16 @@ img {
   .home__img {
     width: 450px;
   }
+}
+
+.alert{
+  width: auto;
+  background: rgb(47, 196, 215);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 900;
+  display: none;
+  margin: 10px;
 }
