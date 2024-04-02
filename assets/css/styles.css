@@ -283,6 +283,7 @@ img {
 }
 
 .skills__text {
+  
   margin-bottom: var(--mb-4);
 }
 
@@ -290,6 +291,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
   position: relative;
   font-weight: var(--font-semi);
   padding: .5rem 1rem;
@@ -300,6 +302,7 @@ img {
 
 .skills__icon {
   font-size: 2rem;
+  text-align: center;
   margin-right: var(--mb-2);
   color: var(--first-color);
 }
@@ -307,6 +310,7 @@ img {
 .skills__names {
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 .skills__bar {
@@ -342,6 +346,7 @@ img {
 /* ===== WORK =====*/
 .work__container {
   row-gap: 1rem;
+  
 }
 .works__container {
   row-gap: 1rem;
